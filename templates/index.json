@@ -1,0 +1,256 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/grand-opening-7142417__480.png",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "32bc21d3-a0d8-4db0-aa9c-47ac7de64f2d": {
+      "type": "collage",
+      "blocks": {
+        "template--17917245915424__32bc21d3-a0d8-4db0-aa9c-47ac7de64f2d-167644261505c2dcd2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/retail-shopping-package.jpg"
+          }
+        },
+        "template--17917245915424__32bc21d3-a0d8-4db0-aa9c-47ac7de64f2d-167644261505c2dcd2-1": {
+          "type": "product",
+          "settings": {
+            "product": "t-shirt",
+            "second_image": false
+          }
+        },
+        "template--17917245915424__32bc21d3-a0d8-4db0-aa9c-47ac7de64f2d-167644261505c2dcd2-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17917245915424__32bc21d3-a0d8-4db0-aa9c-47ac7de64f2d-167644261505c2dcd2-0",
+        "template--17917245915424__32bc21d3-a0d8-4db0-aa9c-47ac7de64f2d-167644261505c2dcd2-1",
+        "template--17917245915424__32bc21d3-a0d8-4db0-aa9c-47ac7de64f2d-167644261505c2dcd2-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "81364090-6ebe-42b6-9762-c21716de6204": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17917245915424__81364090-6ebe-42b6-9762-c21716de6204-1676300193e8db3640-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/orange-poles-create-a-tunnel.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Time to enjoy you books",
+            "button_label": "Button label",
+            "link": "shopify:\/\/products\/trucker-cap",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17917245915424__81364090-6ebe-42b6-9762-c21716de6204-1676300193e8db3640-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "06fa966e-465b-41d5-9f3d-692923ace648": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17917245915424__81364090-6ebe-42b6-9762-c21716de6204-1676300193e8db3640-0",
+        "template--17917245915424__81364090-6ebe-42b6-9762-c21716de6204-1676300193e8db3640-1",
+        "06fa966e-465b-41d5-9f3d-692923ace648"
+      ],
+      "custom_css": [
+        ".slideshow__controls {background: white;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "slider_nav_alignment": "bottom-center",
+        "slider_navposition": "absolute",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "e7f1de8f-b84d-42af-96a3-7532c00d6dc9": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/hands-slice-red-pepper-on-wooden-cutting-board.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "accent-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "47613317-f6eb-4190-97b8-82ea4c50f768": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "167630114222b5d0f9": {
+      "type": "apps",
+      "blocks": {
+        "0a899cf7-422f-4d91-adfb-1844ca856fca": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/badge-double-image\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "api_key": "pubkey-910725y58YP2TPvv1KX6k1a9IWF0MQ",
+            "store_hash": "281430",
+            "label1": "Reviews",
+            "label2": "",
+            "width": "200",
+            "height": "200"
+          }
+        }
+      },
+      "block_order": [
+        "0a899cf7-422f-4d91-adfb-1844ca856fca"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "fb52e115_1676904726": {
+      "type": "powr-form-builder",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "32bc21d3-a0d8-4db0-aa9c-47ac7de64f2d",
+    "81364090-6ebe-42b6-9762-c21716de6204",
+    "e7f1de8f-b84d-42af-96a3-7532c00d6dc9",
+    "47613317-f6eb-4190-97b8-82ea4c50f768",
+    "167630114222b5d0f9",
+    "fb52e115_1676904726"
+  ]
+}
