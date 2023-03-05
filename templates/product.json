@@ -173,7 +173,7 @@
     "3dfc2990-f0c2-4c34-b601-f0585201ce72": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.instructions -%}\n<p>Global: {{ product.metafields.custom.instructions.value.demo }}<\/p> \n{% endif %}\n\n{% unless product.metafields.facts.ean.value == empty -%}\nLocal: {{product.metafields.facts.ean.value}}\n{% endunless -%}\n\n{% if product.metafields.some == empty %}\n<p>Empty 2<\/p>\n{% endif %}\n\n{% if product.metafields.prapp-pub-reviews != blank %}\n<p>Empty 2<\/p>\n{% endif %}\n\n<script>\nconsole.log({{ product.metafields.prapp-pub-reviews }}) \n<\/script>",
+        "custom_liquid": "{% if product.metafields.custom.instructions -%}\n<p>Global: {{ product.metafields.custom.instructions.value.demo }}<\/p> \n{% endif %}\n\n{% unless product.metafields.facts.ean.value == empty -%}\nLocal: {{product.metafields.facts.ean.value}}\n{% endunless -%}\n\n{% if product.metafields.some == empty %}\n<p>Empty 2<\/p>\n{% endif %}\n\n<script>\nconsole.log({{ product.metafields.prapp-pub-reviews }}) \n<\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
